@@ -1,0 +1,37 @@
+.section-imagenes{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-gap: 3px;
+
+    #img1{
+        height: 290px;
+    }
+    #img5{
+        height: 190px;
+
+    }
+    #img2{
+        height: 166px;
+    }
+    #img6{
+        height: 166px;
+    }
+    #img4{
+        height: 190px;
+    }
+    #img3{
+        height: 290px;
+    }
+}
+
+
+//Estilo cuando (secciones-google) es cliqueado
+.secciones-google{
+    a:active{
+        color: black;
+        text-decoration: underline;
+    }
+}

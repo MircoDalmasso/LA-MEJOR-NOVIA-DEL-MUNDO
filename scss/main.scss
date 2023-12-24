@@ -1,4 +1,7 @@
-// index
+/* Imports */
+//pages
+@use './pages/index';
+
 *{
     background-color: #ffffff;
     font-family: 'Encode Sans', sans-serif;
@@ -29,6 +32,7 @@ header{
                 display: inline;
                 a{
                     color: hwb(0 0% 100% / 0.700);
+                    text-decoration: none;
                     font-size: 17px;
                     padding: 0 5px;
                 }
@@ -39,34 +43,3 @@ header{
 
 }
 
-.section-imagenes{
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 0.5fr);
-    grid-gap: 10px;
-
-    #img1{
-        height: 290px;
-    }
-
-    #img5{
-        height: 190px;
-
-    }
-    #img2{
-        height: 166px;
-    }
-    #img6{
-        height: 166px;
-    }
-
-    #img4{
-        height: 190px;
-    }
-
-    #img3{
-        height: 290px;
-    }
-}

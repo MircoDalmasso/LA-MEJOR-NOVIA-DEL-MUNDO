@@ -1,3 +1,36 @@
+/* Imports */
+.section-imagenes {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  grid-gap: 3px;
+}
+.section-imagenes #img1 {
+  height: 290px;
+}
+.section-imagenes #img5 {
+  height: 190px;
+}
+.section-imagenes #img2 {
+  height: 166px;
+}
+.section-imagenes #img6 {
+  height: 166px;
+}
+.section-imagenes #img4 {
+  height: 190px;
+}
+.section-imagenes #img3 {
+  height: 290px;
+}
+
+.secciones-google a:active {
+  color: black;
+  text-decoration: underline;
+}
+
 * {
   background-color: #ffffff;
   font-family: "Encode Sans", sans-serif;
@@ -28,35 +61,9 @@ header .secciones-google ul li {
 }
 header .secciones-google ul li a {
   color: hwb(0 0% 100%/0.7);
+  text-decoration: none;
   font-size: 17px;
   padding: 0 5px;
-}
-
-.section-imagenes {
-  text-align: center;
-  justify-content: center;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 0.5fr);
-  grid-gap: 10px;
-}
-.section-imagenes #img1 {
-  height: 290px;
-}
-.section-imagenes #img5 {
-  height: 190px;
-}
-.section-imagenes #img2 {
-  height: 166px;
-}
-.section-imagenes #img6 {
-  height: 166px;
-}
-.section-imagenes #img4 {
-  height: 190px;
-}
-.section-imagenes #img3 {
-  height: 290px;
 }
 
 /*# sourceMappingURL=main.css.map */
