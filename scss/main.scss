@@ -10,39 +10,41 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-header{
-    height: 20%;
-    .logo-google{
-        text-align: center;
-        #logo-google{
-            height: 55px;
-        }
-    }
-    .buscador-google{
-        text-align: center;
-        #buscador-google{
-        height: 70px;
-    }
-    }
-    
-    .secciones-google{
-        
-        ul{
+
+    header{
+        height: 20%;
+        .logo-google{
             text-align: center;
-            li{
-                list-style: none;
-                display: inline;
-                a{
-                    color: hwb(0 0% 100% / 0.700);
-                    text-decoration: none;
-                    font-size: 17px;
-                    padding: 0 5px;
-                }
+            #logo-google{
+                height: 55px;
             }
         }
+        .buscador-google{
+            text-align: center;
+            #buscador-google{
+            height: 70px;
+        }
+        }
         
+        .secciones-google{
+            
+            ul{
+                text-align: center;
+                li{
+                    list-style: none;
+                    display: inline;
+                    a{
+                        color: hwb(0 0% 100% / 0.700);
+                        text-decoration: none;
+                        font-size: 17px;
+                        padding: 0 5px;
+                    }
+                }
+            }
+            
+        }
     }
-}
+
 
 //Estilo cuando (secciones-google) es cliqueado
 .secciones-google{

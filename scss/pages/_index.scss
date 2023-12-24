@@ -1,29 +1,29 @@
-.section-imagenes{
-    text-align: center;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(2, 0.5fr);
-    grid-gap: 10px;
+    .section-imagenes{
+        text-align: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 0.5fr);
+        grid-gap: 10px;
 
-    #img1{
-        height: 355px;
+        #img1{
+            height: 355px;
+        }
+        #img5{
+            height: 190px;
+        }
+        #img2{
+            height: 166px;
+        }
+        #img6{
+            height: 166px;
+        }
+        #img4{
+            height: 190px;
+        }
+        #img3{
+            height: 355px;
+        }
+        #img8, #img9 {
+            height: 166px;
+        }
     }
-    #img5{
-        height: 190px;
-    }
-    #img2{
-        height: 166px;
-    }
-    #img6{
-        height: 166px;
-    }
-    #img4{
-        height: 190px;
-    }
-    #img3{
-        height: 355px;
-    }
-    #img8, #img9 {
-        height: 166px;
-    }
-}
